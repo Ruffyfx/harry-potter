@@ -1,6 +1,8 @@
 body{
 	margin: 0;
 	font-family: Helvetica;
+	font-size: 19px;
+	line-height: 30px;
 }
 
 header{
@@ -29,10 +31,69 @@ header img{
 
 main{
 	max-width: 800px;
-	margin: 0 auto;
-	padding: 0 20px;
+	margin:0 auto;
+	padding: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 18px;
 }
 
 main img {
 	max-width: 100%
+}
+
+h2{
+	font-size: 30px;
+	color: #2196f3;
+	margin: 40px 0 10px;
+}
+
+a:{
+	color: blue;
+}
+
+a:hover{
+	color: white;
+	background-color : purple;
+}
+
+footer{
+	background-color: black;
+  	background-image: url("https://ak.picdn.net/shutterstock/videos/34195942/thumb/1.jpg");
+  	color: white;
+  	text-align: center;
+  	padding: 15px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: #999999;
+	margin-top: 0;
+	font-family: 'Pacifico', cursive;
+}
+
+.bm{
+	max-width: 70px;
+    max-height: 70px;
+    position: relative;
+    bottom: -52px;
+    margin-left: -494px;
+}
+
+.rn{
+	max-width: 70px;
+    max-height: 70px;
+    position: relative;
+    bottom: 51px;
+    margin-right: -494px;
 }
